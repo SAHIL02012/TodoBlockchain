@@ -1,0 +1,29 @@
+.prioritylow {
+    background-color: #41d363; /* Light green */
+    border: 2px solid green;
+}
+
+.prioritymedium {
+    background-color: #e3bb39; /* Light yellow */
+    border: 2px solid orange;
+}
+
+.priorityhigh {
+    background-color: #f34a58; /* Light red */
+    border: 2px solid red;
+}
+
+
+.todo__list{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;   
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 10px !important;
+   
+}
